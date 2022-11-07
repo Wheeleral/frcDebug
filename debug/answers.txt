@@ -1,0 +1,45 @@
+Main.java
+Line 9: Needs the work "import" in front of the package
+Function main: is out side of the class and needs to be moved back up
+
+
+Robot.java
+Line 13/14: Needs the word new in front of NeoMotor
+Line 20: Missing quotes in first argument
+Line 36: Should be number 0 not string "0"
+Line 37: Missing Semicolon
+
+
+NtHelper.java
+Line 16: Missing "()" after .getDefault
+Line 35: Missing word "public" at the start of the function declaration
+Line 63: Missing type of second parameter
+
+Translate.java
+Line 33: Missing word "return"
+
+Rot.java
+Missing member declaration for double angle
+
+IGyro.java
+Missing "package frc.robot.devices;"
+
+OdometryHelper.java
+Line 13: Missing type declaration
+Line 33: Missing return type of function (void)
+
+TrajectoryGeneration.java
+Line 13: Missing begging thing for comment
+Line 29: Missing paranthesis for parameters in the function declaration
+
+NeoMotor:
+Line 45: Capitaliation issue should be "setPercent"
+
+Pose.java
+Line 18: Capitaliation issue should be "getPose"
+
+StateMachine.java
+Missing import
+Line 27: Missing "="
+Line 29: Should have period between myAnnotation and name
+
