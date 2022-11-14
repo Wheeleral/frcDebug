@@ -3,7 +3,7 @@ package frc.robot.geometry;
 import edu.wpi.first.math.geometry.Rotation2d;
 
 public class Rot {
-
+    private double angle;
     public Rot(double angel){
         angle = angel;
     }

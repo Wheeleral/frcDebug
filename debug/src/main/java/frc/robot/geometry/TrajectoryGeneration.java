@@ -10,7 +10,7 @@ import edu.wpi.first.math.trajectory.TrajectoryGenerator;
 import edu.wpi.first.math.trajectory.Trajectory;
 import edu.wpi.first.math.geometry.Translation2d;
 
-Main point of this file is to do trajectory generation, inputing feet and outputing a trajectory in meters
+//Main point of this file is to do trajectory generation, inputing feet and outputing a trajectory in meters
 
 public class TrajectoryGeneration {
     private static TrajectoryConfig config;
@@ -26,7 +26,7 @@ public class TrajectoryGeneration {
         return config;
     }
 
-    public static void switchReverseConfig {
+    public static void switchReverseConfig() {
         config.setReversed(!config.isReversed());
     }
 

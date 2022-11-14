@@ -146,4 +146,8 @@ public class NeoMotor implements IMotor {
         return getDistance() / getConversionFactor();
     }
 
+    public void setPercent(double percent) {
+        //i forgot what goes here
+    }
+
 }

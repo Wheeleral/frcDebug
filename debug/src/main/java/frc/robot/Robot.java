@@ -10,14 +10,14 @@ import frc.robot.util.NtHelper;
 
 public class Robot extends TimedRobot {
 
-  NeoMotor topMotor = NeoMotor(3);
-  NeoMotor bottomMotor = NeoMotor(7);
+  NeoMotor topMotor = new NeoMotor(3);
+  NeoMotor bottomMotor = new NeoMotor(7);
 
   @Override
   public void robotInit() {
     NtHelper.setDouble("/topSpeed", 0);
     NtHelper.setDouble("/bottomSpeed", 0);
-    NtHelper.setBoolean(/enabled, false);
+    NtHelper.setBoolean("/enabled", false);
     topMotor.setInverted(true);
   }
 
@@ -33,8 +33,8 @@ public class Robot extends TimedRobot {
       topMotor.setPercent(topSpeed);
       bottomMotor.setPercent(bottomSpeed);
     } else {
-      topMotor.setPercent("0");
-      bottomMotor.setPercent(0)
+      topMotor.setPercent(0);
+      bottomMotor.setPercent(0);
     }
   }
 }

@@ -13,7 +13,7 @@ public class NtHelper {
      * @param listener Function to be called when value changes
      */
     public static void listen(String key, Consumer<EntryNotification> listener) {
-        NetworkTableInstance.getDefault.addEntryListener(key, listener,
+        NetworkTableInstance.getDefault().addEntryListener(key, listener,
                 EntryListenerFlags.kUpdate | EntryListenerFlags.kNew | EntryListenerFlags.kImmediate);
     }
 
@@ -32,7 +32,7 @@ public class NtHelper {
      * @param defaultValue default value if key in network tables is null
      * @return current value of key
      */
-    static double getDouble(String key, double defaultValue) {
+    public static double getDouble(String key, double defaultValue) {
         return getEntry(key).getDouble(defaultValue);
     }
 
@@ -60,7 +60,7 @@ public class NtHelper {
      * @param key key to set
      * @param value new value for key
      */
-    public static void setString(String key,  value) {
+    public static void setString(String key, String value) {
         getEntry(key).setString(value);
     }
 

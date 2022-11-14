@@ -30,6 +30,6 @@ public class Translate {
     }
 
     public double getYMeters(){
-        y;
+        return y;
     }
 }

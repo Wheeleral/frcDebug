@@ -15,7 +15,7 @@ public class Pose {
         rot = rotValue.getRotation();
     }
 
-    public Pose2d getpose(){
+    public Pose2d getPose(){
         return new Pose2d(x, y, rot);
     }
 

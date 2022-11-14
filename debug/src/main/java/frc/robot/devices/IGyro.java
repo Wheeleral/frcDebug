@@ -1,4 +1,4 @@
-
+package frc.robot.devices;
 public interface IGyro{
 
     public void reset();

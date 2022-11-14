@@ -1,6 +1,7 @@
 package frc.robot.util.stateMachine;
 
 import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
 import java.util.HashMap;
 
 public class StateMachine {
@@ -24,9 +25,9 @@ public class StateMachine {
         }
         // Gathers each method that has RunState annotations
         if(annotation instanceof RunState){
-          RunState myAnnotation (RunState) annotation;
+          RunState myAnnotation = (RunState) annotation;
           //System.out.println("endState name: " + myAnnotation.name());
-          runStates.put(myAnnotation name(), method);
+          runStates.put(myAnnotation.name(), method);
         }
       }
     }

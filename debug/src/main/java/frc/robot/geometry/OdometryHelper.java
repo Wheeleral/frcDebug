@@ -10,7 +10,7 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 public class OdometryHelper {
 
     private DifferentialDriveOdometry odometry;
-    private field = new Field2d();
+    private Field2d field = new Field2d();
 
     public OdometryHelper(double angle) {
         Rotation2d rotation2d = Rotation2d.fromDegrees(-angle);
@@ -30,7 +30,7 @@ public class OdometryHelper {
         return odometry.getPoseMeters();
     }
 
-    public resetOdometry(double angle) {
+    public void resetOdometry(double angle) {
         Rotation2d rotation = Rotation2d.fromDegrees(-angle);
         odometry.resetPosition(new Pose2d(), rotation);
     }
