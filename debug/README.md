@@ -7,3 +7,8 @@ Goals:
 * In robot.java print out the speed values using -System.out.println()
 * Have kP, kI, kD, and kF be read in as network table values in NeoMotor.java, make sure there are default values.
 * In StateMachine.java use network tables to display the name of the state in runState
+
+
+Helpful Links:
+* https://docs.wpilib.org/en/stable/docs/software/networktables/networktables-intro.html
+* https://code-knowledge.com/java-system-out-print/
