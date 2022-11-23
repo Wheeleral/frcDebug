@@ -1,21 +1,9 @@
-Hi!
-
-This is an entire project to help you learn about errors and debugging code!
-
-There are diffeerent branches with different objectives to learn how to debug.
-
-For Java errors go to branch: javaIssues
+In this branch you'll learn about logging with Network Tables and System.
 
 
+Goals:
 
-
-
-Helpful Links:
- How to read stacktraces: https://docs.wpilib.org/en/stable/docs/software/basic-programming/reading-stacktraces.html
- Common Errors: https://dzone.com/articles/50-common-java-errors-and-how-to-avoid-them-part-1
-                https://www.theserverside.com/tutorial/The-most-common-compile-time-errors-in-Java
-
-
-How to Program Links:
-    https://www.chiefdelphi.com/t/java-programming-training-for-frc-teams-veterans-and-beginners/416820
-    
+*In robot.java have the variables topSpeed, bottomSpeed and enabled to be read in as values from network helpers.
+*In robot.java print out the speed values using -System.out.println()
+*Have kP, kI, kD, and kF be read in as network table values in NeoMotor.java, make sure there are default values.
+*In StateMachine.java use network tables to display the name of the state in runState

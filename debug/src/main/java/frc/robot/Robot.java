@@ -6,7 +6,6 @@ package frc.robot;
 
 import edu.wpi.first.wpilibj.TimedRobot;
 import frc.robot.devices.NeoMotor;
-import frc.robot.util.NtHelper;
 
 public class Robot extends TimedRobot {
 
@@ -15,18 +14,16 @@ public class Robot extends TimedRobot {
 
   @Override
   public void robotInit() {
-    NtHelper.setDouble("/topSpeed", 0);
-    NtHelper.setDouble("/bottomSpeed", 0);
-    NtHelper.setBoolean("/enabled", false);
+
     topMotor.setInverted(true);
   }
 
   @Override
   public void robotPeriodic() {
     // get user input for motor speeds
-    double topSpeed = NtHelper.getDouble("/topSpeed", 0);
-    double bottomSpeed = NtHelper.getDouble("/bottomSpeed", 0);
-    boolean enabled = NtHelper.getBoolean("/enabled", false);
+    double topSpeed = 0;
+    double bottomSpeed = 0;
+    boolean enabled = false;
 
     // set motor speeds here
     if (enabled) {
