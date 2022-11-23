@@ -5,6 +5,7 @@ This is an entire project to help you learn about errors and debugging code!
 There are diffeerent branches with different objectives to learn how to debug.
 
 For Java errors go to branch: javaIssues
+Learn about logging: logging
 
 
 
