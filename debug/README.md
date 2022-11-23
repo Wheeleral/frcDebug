@@ -16,3 +16,6 @@ Helpful Links:
                 https://www.theserverside.com/tutorial/The-most-common-compile-time-errors-in-Java
 
 
+How to Program Links:
+    https://www.chiefdelphi.com/t/java-programming-training-for-frc-teams-veterans-and-beginners/416820
+    
