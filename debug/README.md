@@ -11,11 +11,9 @@ For Java errors go to branch: javaIssues
 
 
 Helpful Links:
- How to read stacktraces: https://docs.wpilib.org/en/stable/docs/software/basic-programming/reading-stacktraces.html
- Common Errors: https://dzone.com/articles/50-common-java-errors-and-how-to-avoid-them-part-1
-                https://www.theserverside.com/tutorial/The-most-common-compile-time-errors-in-Java
-
-
-How to Program Links:
+* How to read stacktraces: https://docs.wpilib.org/en/stable/docs/software/basic-programming/reading-stacktraces.html
+* Common Errors: https://dzone.com/articles/50-common-java-errors-and-how-to-avoid-them-part-1
+               https://www.theserverside.com/tutorial/The-most-common-compile-time-errors-in-Java
+* How to Program Links:
     https://www.chiefdelphi.com/t/java-programming-training-for-frc-teams-veterans-and-beginners/416820
     
